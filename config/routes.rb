@@ -1,12 +1,13 @@
 Dvorec::Application.routes.draw do
   root :to => 'welcome#index'
-  match 'roles/add/:id' => 'roles#add' 
+  
   devise_for :users
-  # match 'users/:id/edit' => devise_edit
+  #match 'users/cancel/:id' => 'devise#cancel'
   resources :units
   resources :users
   resources :roles
   resources :welcome
+
 
 
 
