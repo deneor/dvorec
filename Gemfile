@@ -9,6 +9,9 @@ gem 'sqlite3'
 gem 'devise'
 gem 'cancan'
 
+group :production do
+  gem "pg"
+end
 
 
 
