@@ -104,6 +104,6 @@ DEPENDENCIES
   devise
   jquery-rails
   pg
-  rails (= 3.1.0)
+  rails
   sqlite3
   turn
